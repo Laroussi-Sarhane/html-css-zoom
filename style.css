@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+main{
+  background-color: black;
+  height:calc(100vh- 60px);
+  overflow: auto;
+  margin-top: 50px;
+}
+
+.container{
+  width: 98%;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  flex-wrap:wrap;
+}
+img{
+  max-width: 100%;
+}
+.col{
+  
+  width: calc(100% / 7);
+  
+}
+.card {
+  margin-bottom: 20px;
+  padding: 0 10px;
+  
+
+
+}
