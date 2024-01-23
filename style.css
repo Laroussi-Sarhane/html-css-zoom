@@ -24,6 +24,9 @@ main{
 }
 img{
   max-width: 100%;
+  width: 170px;
+  height: 100px;
+  
 }
 .col{
   
@@ -33,7 +36,25 @@ img{
 .card {
   margin-bottom: 20px;
   padding: 0 10px;
-  
+}
+.card .card-images{
+    position: relative;
+    
+}
 
-
+.card .card-images .badges{
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  background-color:black;
+  color: white;
+  height: 70px;
+  width: 70px;
+}
+.footer{
+  height: 60px;
+  background-color: black
+  width: 98%;
+  max-width: 1380px;
+  margin: 0 auto;
 }
