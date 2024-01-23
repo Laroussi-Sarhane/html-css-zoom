@@ -12,6 +12,12 @@ main{
   overflow: auto;
   margin-top: 50px;
 }
+i{
+  color: white;
+}
+span{
+  color: white;
+}
 
 .container{
   width: 98%;
@@ -40,10 +46,11 @@ img{
 .card .card-images{
     position: relative;
     
+
 }
 
 .card .card-images .badges{
-  position: absolute;
+  position:absolute;
   bottom: 100px;
   left: 0;
   background-color:black;
@@ -52,34 +59,16 @@ img{
   width: 70px;
 }
 .footer{
-  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
-.topbar{
-  background-color: rgb(69, 67, 67);
-  height: 60px;
-  position: fixed;
-  width: 98%;
-  bottom: 0;
-  
-  
-
-}
-.topbar .container-d-flex{
+.cont-footer{
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
-  margin-top: 10px;
-  display: flex;
-  list-style: none;
-} 
-.d-flex{
-  display: flex;
-  
+}
+.cont{
+  justify-content: space-between;
 }
 
-.icons{
-  color: white;
-  align-items: center;
-  justify-content: space-around;
-  
-}
