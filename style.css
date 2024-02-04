@@ -58,17 +58,68 @@ img{
   height: 70px;
   width: 70px;
 }
-.footer{
+
+
+.flex{
   display: flex;
-  height: 100%;
-  width: 100%;
 }
-.cont-footer{
+footer{
+  height: 100px;
+  background-color:greenyellow;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
+  background-color: #222222;
+  font-size: 2rem;
 }
-.cont{
-  justify-content: space-between;
+.action{
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.action div{
+  cursor: pointer;
+}
+
+.action div:hover{
+  color: #4bc800;
+}
+
+.action .active{
+  color: #4bc800;
+}
+
+.action .caption{
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action span{
+  font-size: 1.2rem;
+}
+
+footer #chevron{
+  font-size: 1.2rem;
+}
+
+.caption#chevron{
+  justify-content: center;
+}
+.end{
+  height: 100%;
+  width: 15%;
+  justify-content: flex-end;
+}
+
+.end button{
+  cursor: pointer;
+  padding: 10px 30px;
+  color: red;
+  background-color: #4a4a4a;
+  border: transparent;
 }
 
